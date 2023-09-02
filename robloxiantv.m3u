@@ -1,0 +1,10 @@
+#EXTM3U
+#EXTINF:3700,bloxburg cooking 1h.mp4
+#EXTVLCOPT:file-caching=1000
+bloxburg%20cooking%201h.mp4
+#EXTINF:3794,bloxburg news 1h.mp4
+#EXTVLCOPT:file-caching=1000
+bloxburg%20news%201h.mp4
+#EXTINF:10,nukesforkids.png
+#EXTVLCOPT:file-caching=1000
+nukesforkids.png
