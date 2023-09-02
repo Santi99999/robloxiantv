@@ -16,14 +16,13 @@ h1 {
     </style>
     <center>
       <h1>- Watching <code>Robloxian TV</code> -</h1>
-      <script src="//jwpsrv.com/library/O4mPlqeTEeK_viIACpYGxA.js"></script>
-<div id="my-video">
-</div>
-<script>// <![CDATA[
-jwplayer('my-video').setup({         file: 'https://santi99999.github.io/robloxiantv/robloxiantv.m3u',         width: '100%',         height: '450',         autostart: 'true',    image: ''     ,   primary: 'html5', hlshtml: 'true'     });
-// ]]>
-<!--Thanks to www.techedubyte.com!-->
-</script>
+        <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js">
+  </script>
+        <div id="player"></div>
+  <script>
+    var player = new Clappr.Player({source: "https://santi99999.github.io/robloxiantv/robloxiantv.m3u", parentId: "#player"});
+  </script>
       <a href="robloxiantv.m3u">Download Robloxian TV to watch offline! [new]</a>
       <code>Robloxian TV is just a stupid website that simulates the TV from Welcome To Bloxburg [Roblox Game]</code>
     </center>
